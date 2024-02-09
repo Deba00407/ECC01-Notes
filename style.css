@@ -44,11 +44,23 @@ h1 {
 }
 
 @keyframes fade {
-  0%{
-    opacity: 0;
+  0% {
+    opacity: 0.2;
   }
 
-  100%{
+  25% {
+    opacity: 0.4;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  75% {
+    opacity: 0.8;
+  }
+
+  100% {
     opacity: 1;
   }
 }
